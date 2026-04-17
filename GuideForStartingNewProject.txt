@@ -1,0 +1,8 @@
+Files needed for a web project:
+1. HTML Files
+2. CSS Files
+3. JS File (optional)
+
+Step to start a web project: 
+1. Create a HTML file, set up template code, optionally set up as title
+2. Create CSS file, and link in HTML file.
