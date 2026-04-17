@@ -6,3 +6,6 @@ Files needed for a web project:
 Step to start a web project: 
 1. Create a HTML file, set up template code, optionally set up as title
 2. Create CSS file, and link in HTML file.
+3. If JS needed, create a JS file and connect to HTML too.
+4. Open Live Server.
+5. Start coding !
