@@ -38,3 +38,22 @@ body {
   object-fit: cover;
   object-position: top;
 }
+/* .doge-png2 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) translateY(120px);
+
+  width: 80px;
+}
+
+.image-wrapper {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 100%;
+  background-color: lightcyan;
+  object-fit: cover;
+  object-position: top;
+} */
