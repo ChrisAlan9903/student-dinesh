@@ -70,3 +70,38 @@ body {
 .fa-github:hover {
   color: #181717;
 }
+
+/* state - colour */
+
+.fa-facebook.state-colour {
+  color: #1877f2;
+}
+.fa-instagram.state-colour {
+  color: #e4405f;
+}
+.fa-linkedin.state-colour {
+  color: #0a66c2;
+}
+.fa-github.state-colour {
+  color: #181717;
+}
+
+/* Button styling */
+.download-btn {
+  color: white;
+  background-color: #9960cb;
+
+  border: 2px solid #6100b5;
+  border-radius: 12px;
+  padding: 8px 22px;
+
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  opacity: 0.7;
+}
+
+h3.colour {
+  color: #6100b5;
+}
