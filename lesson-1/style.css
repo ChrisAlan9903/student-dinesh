@@ -38,22 +38,49 @@ body {
   object-fit: cover;
   object-position: top;
 }
-/* .doge-png2 {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%) translateY(120px);
+.icons-container {
+  /* background-color: lightcoral; */
+  width: 100%;
 
-  width: 80px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.image-wrapper {
-  width: 180px;
-  height: 180px;
-  overflow: hidden;
-  position: relative;
-  border: 2px solid black;
-  border-radius: 100%;
-  background-color: lightcyan;
-  object-fit: cover;
-  object-position: top;
-} */
+.icons {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+/* PSEUDO CLASS - hover */
+.icons:hover {
+  opacity: 1;
+  transform: scale(2);
+  background-color: red;
+}
+
+.icons-container > i {
+  font-size: 24px;
+
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.icons-container > i:hover {
+  opacity: 1;
+  transform: scale(2);
+}
+
+.fa-facebook:hover {
+  color: #1877f2;
+}
+.fa-instagram:hover {
+  color: #e4405f;
+}
+.fa-linkedin:hover {
+  color: #0a66c2;
+}
+.fa-github:hover {
+  color: #181717;
+}
