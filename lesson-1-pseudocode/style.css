@@ -46,14 +46,27 @@ body {
   justify-content: space-evenly;
 }
 
-.icons {
+.icons-container > i {
   opacity: 0.5;
   cursor: pointer;
   transition: all 0.5s ease;
 }
 
 /* PSEUDO CLASS */
-.icons:hover {
+.icons-container > i:hover {
   opacity: 1;
   transform: scale(2);
+}
+
+.fa-facebook:hover {
+  color: #1877f2;
+}
+.fa-instagram:hover {
+  color: #e4405f;
+}
+.fa-linkedin:hover {
+  color: #0a66c2;
+}
+.fa-github:hover {
+  color: #181717;
 }
