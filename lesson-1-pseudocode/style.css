@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 277px;
+  height: 441px;
+  border: 2px solid black;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid navy;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.doge-png {
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 100%;
+  background-color: gold;
+  object-fit: cover;
+  object-position: top;
+}
+
+.icons-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons {
+  opacity: 0.5;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+/* PSEUDO CLASS */
+.icons:hover {
+  opacity: 1;
+  transform: scale(2);
+}
