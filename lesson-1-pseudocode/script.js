@@ -10,9 +10,14 @@ const paragraph = document.querySelector("p");
 
 toggleClassBtn.addEventListener("click", () => {
   icons.forEach((i) => {
+    name.addEventListener;
     i.classList.toggle("state-colour");
   });
 
   name.classList.toggle("colour");
-  paragraph.classList.toggle("shake");
+  paragraph.classList.add("shake");
+});
+
+paragraph.addEventListener("animationend", () => {
+  paragraph.classList.remove("shake");
 });
