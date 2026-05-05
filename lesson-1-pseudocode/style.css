@@ -133,19 +133,15 @@ p.shake {
     transform: translateX(4px);
   }
   70% {
-    transform: translateX(-2px);
-    transform: translateY(-5px);
+    transform: translate(-2px, -5px);
   }
   80% {
-    transform: translateX(2px);
-    transform: translateY(-2px);
+    transform: translate(2px, -2px);
   }
   90% {
-    transform: translateX(-1px);
-    transform: translateY(3px);
+    transform: translate(-1px, 3px);
   }
   100% {
-    transform: translateX(0);
-    transform: translateY(0);
+    transform: translate(0, 0);
   }
 }

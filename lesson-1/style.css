@@ -1,3 +1,4 @@
+@ -1,129 +1,151 @@
 * {
   margin: 0;
   padding: 0;
@@ -38,35 +39,21 @@ body {
   object-fit: cover;
   object-position: top;
 }
+
 .icons-container {
-  /* background-color: lightcoral; */
   width: 100%;
 
   display: flex;
   justify-content: space-evenly;
 }
 
-.icons {
-  opacity: 0.5;
-  cursor: pointer;
-  transition: all 0.5s ease;
-}
-
-/* PSEUDO CLASS - hover */
-.icons:hover {
-  opacity: 1;
-  transform: scale(2);
-  background-color: red;
-}
-
 .icons-container > i {
-  font-size: 24px;
-
   opacity: 0.5;
   cursor: pointer;
-  transition: all 0.5s ease;
+  transition: all 0.5s ease
 }
 
+/* PSEUDO CLASS */
 .icons-container > i:hover {
   opacity: 1;
   transform: scale(2);
@@ -83,4 +70,85 @@ body {
 }
 .fa-github:hover {
   color: #181717;
+}
+
+/* state - colour */
+
+.fa-facebook.state-colour {
+  color: #1877f2;
+}
+.fa-instagram.state-colour {
+  color: #e4405f;
+}
+.fa-linkedin.state-colour {
+  color: #0a66c2;
+}
+.fa-github.state-colour {
+  color: #181717;
+}
+
+/* Button styling */
+.download-btn {
+  color: white;
+  background-color: #9960cb;
+
+  border: 2px solid #6100b5;
+  border-radius: 12px;
+  padding: 8px 22px;
+
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  opacity: 0.7;
+}
+
+h3.colour {
+  color: #6100b5;
+}
+
+p.shake {
+  animation: shake 0.5s;
+  animation: shake 0.8s linear;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(-6px);
+  }
+  20% {
+    transform: translateX(6px);
+  }
+  30% {
+    transform: translateX(-6px);
+  }
+  40% {
+    transform: translateX(6px);
+  }
+  50% {
+    transform: translateX(0);
+    transform: translateX(-4px);
+  }
+  60% {
+    transform: translateX(4px);
+  }
+  70% {
+    transform: translateX(-2px);
+    transform: translateY(-5px);
+  }
+  80% {
+    transform: translateX(2px);
+    transform: translateY(-2px);
+  }
+  90% {
+    transform: translateX(-1px);
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateX(0);
+    transform: translateY(0);
+  }
 }
