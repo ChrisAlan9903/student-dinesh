@@ -5,6 +5,7 @@ const toggleClassBtn = document.querySelector(".download-btn");
 const icons = document.querySelectorAll(".fa-brands");
 const name = document.querySelector("h3");
 const paragraph = document.querySelector("p");
+const h3 = document.querySelector("h3");
 
 // creating the logic inside a function
 
@@ -16,6 +17,8 @@ toggleClassBtn.addEventListener("click", () => {
 
   name.classList.toggle("colour");
   paragraph.classList.add("shake");
+
+  h3.classList.toggle("animate__rubberBand");
 });
 
 paragraph.addEventListener("animationend", () => {
