@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  height: 100vh;
+  background: lightgoldenrodyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 30%;
+  height: 70%;
+  border: 2px solid black;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: blue;
+}
+
+button {
+  padding: 4px 16px;
+  cursor: pointer;
+  border: 2px solid blue;
+  color: blue;
+  background-color: aliceblue;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: blue;
+  color: aliceblue;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 28px;
+}
