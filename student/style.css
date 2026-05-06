@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: blanchedalmond;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter-card {
+  width: 30%;
+  height: 60%;
+
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  width: 100px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid crimson;
+}
+
+button:hover {
+  background-color: crimson;
+  color: white;
+}
