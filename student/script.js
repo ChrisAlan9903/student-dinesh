@@ -1,5 +1,5 @@
 const h1 = document.querySelector("h1");
-const plusBtn = document.querySelector("#minus-btn");
+const plusBtn = document.querySelector("#plus-btn");
 const minusBtn = document.querySelector("#minus-btn");
 const resetBtn = document.querySelector("#reset-btn");
 
@@ -18,8 +18,9 @@ function minusOne() {
 }
 
 function resetCounter() {
-  let currentValue = h1.textContent;
-  let output = number(h1.textContent);
-
   h1.textContent = 0;
 }
+
+plusBtn.addEventListener("click", plusOne);
+minusBtn.addEventListener("click", minusOne);
+resetBtn.addEventListener("click", resetCounter);

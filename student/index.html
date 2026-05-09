@@ -5,15 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Counter</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <div class="page">
       <div class="counter-card">
-        <h1>0</h1>
+        <h1 class="animate__animated">0</h1>
         <div class="btn-wrapper">
-          <button id="minus-btn" onclick="minusOne()">- 1</button>
-          <button id="plus-btn" onclick="plusOne()">+ 1</button>
-          <button id="reset-btn" onclick="resetCounter()">Reset</button>
+          <button id="minus-btn">- 1</button>
+          <button id="plus-btn">+ 1</button>
+          <button id="reset-btn">Reset</button>
         </div>
       </div>
     </div>
