@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: beige;
+  color: blue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  font-size: 17px;
+}
+
+.life-goals {
+  width: 75vw;
+  padding: 10px;
+  border: 2px solid blue;
+}
+
+.todo-list {
+  width: 75vw;
+  padding: 10px;
+  border: 2px solid blue;
+}
