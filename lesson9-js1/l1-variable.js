@@ -21,3 +21,5 @@ let object = {
   age: 12,
   hobbies: ["football", "swimming", "dating"],
 };
+
+console.log("age: ", object.age);
