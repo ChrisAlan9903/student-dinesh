@@ -7,6 +7,9 @@
 // Use the correct data type for each variable.
 
 // Your code here:
+const name = "Dinesh";
+const age = "20";
+const isStudent = true;
 
 // ========================================
 
@@ -17,6 +20,8 @@
 // Decide which one should use let and which one should use const.
 
 // Your code here:
+const schoolName = "Asia Pacific University";
+let favoritesubject = "RWDD";
 
 // ========================================
 
@@ -27,6 +32,11 @@
 // Print both values using console.log.
 
 // Your code here:
+let mood = "happy";
+console.log("mood:", mood);
+
+mood = "excited";
+console.log("mood:", mood);
 
 // ========================================
 
@@ -40,6 +50,12 @@
 // Use typeof to check each data type.
 
 // Your code here:
+let username = "John";
+let score = 100;
+let isOnline = false;
+let emptyValue = null;
+let unknownValue;
+
 
 // ========================================
 
@@ -58,6 +74,9 @@
 // username should be a string
 
 // Your code here:
+let age = 15;
+let isLoggedIn = true;
+let username = "12345";
 
 // ========================================
 
@@ -76,6 +95,17 @@
 // Present: true
 
 // Your code here:
+let student = {
+  studentName: "Ali",
+  studentAge: 14,
+  studentClass: "2A",
+  isPresent: true
+};
+
+console.log("Name: " + student.studentName);
+console.log("Age: " + student.studentAge);
+console.log("Class: " + student.studentClass);
+console.log("Present: " + student.isPresent);
 
 // ========================================
 
@@ -87,6 +117,10 @@
 // and numberOfSiblings is a number.
 
 // Your code here:
+let phoneNumber = "0123456789";
+// Because the phone number value isnt supposed to change
+let numberOfSiblings = 3;
+// Because the number of siblings can change
 
 // ========================================
 
@@ -97,6 +131,9 @@
 // Add comments explaining the difference between undefined and null.
 
 // Your code here:
+let favoriteFood;
+let selectedColor = null;
+// undefined means nothing has been defined, null means its undefined on purpose
 
 // ========================================
 
@@ -109,6 +146,10 @@
 // Choose the correct data type for each one.
 
 // Your code here:
+const productName = "Chris Coffee"
+let productPrice = 6
+let isAvailable = true
+const productDescription = "Very good coffee fr"
 
 // ========================================
 
@@ -120,6 +161,7 @@
 // isBeginner
 // Use console.log to print a short self-introduction.
 
+
 // Example output:
 // Hi, my name is Ali.
 // I am 13 years old.
@@ -127,7 +169,16 @@
 // Beginner in JavaScript: true
 
 // Your code here:
-
+let selfIntroduction = {
+    myName = "Dinesh",
+    myAge = "20",
+    myHobby = "Music",
+    isBeginner = true,
+}
+console.log("Name: " + selfIntroduction.myName)
+console.log("Age: " + selfIntroduction.myAge)
+console.log("Hobby: " + selfIntroduction.myHobby)
+console.log("Beginner: " + selfIntroduction.isBeginner)
 // ========================================
 // End of Exercises
 // ========================================
