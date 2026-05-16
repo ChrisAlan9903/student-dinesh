@@ -99,7 +99,7 @@ let student = {
   studentName: "Ali",
   studentAge: 14,
   studentClass: "2A",
-  isPresent: true
+  isPresent: true,
 };
 
 console.log("Name: " + student.studentName);
