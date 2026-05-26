@@ -75,3 +75,32 @@ if (false) {
 } else {
   console.log("im anything else");
 }
+
+// Lesson 3.2: Nested if else
+// Example:
+let age = 20;
+let hasLicense = true;
+
+if (age >= 18) {
+  if (hasLicense) {
+    console.log("You can drive");
+  } else {
+    console.log("You are old enough, but you need a license");
+  }
+} else {
+  console.log("You are too young to drive");
+}
+
+if (age >= 55) {
+  console.log("Pity old man la");
+} else if (age >= 18) {
+  // second check: got license or not
+  if (hasLicense == true) {
+    console.log("Ok pass");
+  } else {
+    console.log("Tada lesen, tangkap!");
+  }
+} else {
+  // log "u are still kid"
+  console.log("U still kid. Go suck ur mama tities");
+}

@@ -42,3 +42,17 @@ function ageChecker2(age) {
 }
 
 console.log(ageChecker2(25));
+
+// Thing to take note when doing if-else
+
+function markChecker(number) {
+  if (number >= 50) {
+    console.log("Pass");
+  } else if (number >= 80) {
+    console.log("Excellent");
+  } else {
+    console.log("Fail");
+  }
+}
+
+markChecker(90);
