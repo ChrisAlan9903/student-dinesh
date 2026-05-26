@@ -9,6 +9,11 @@ function addition(num1, num2) {
 }
 console.log("Addition: " + addition(10, 5));
 
+let additionOutput = addition(15, 20);
+console.log(additionOutput);
+
+addition(23, 23);
+
 // 2. Subtract two numbers
 // Create two variables: money = 100 and price = 35.
 // Calculate how much money is left.
@@ -94,3 +99,10 @@ function calculateDiscount(originalPrice, discount) {
   return discountedPrice;
 }
 console.log("Discounted Price: " + calculateDiscount(200, 20));
+
+// Calculation operation:
+// +, -, *, /, % ()
+
+let qwe = 20 % 3;
+
+console.log("qwe:", qwe);

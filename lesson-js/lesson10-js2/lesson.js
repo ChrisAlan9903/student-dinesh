@@ -19,6 +19,7 @@ function oddOrEven() {
   return;
 }
 
+console.log("Function outpt: ", multipleOfThree(30));
 // calling/invoking/using the function
 // oddOrEven();
 
@@ -43,8 +44,6 @@ function multipleOfThree(number) {
 
   return "final is: " + final;
 }
-
-console.log("Function outpt: ", multipleOfThree(30));
 
 // Syntax:
 // 3. Declaring/creating function with  multiple parameters (inputs)
