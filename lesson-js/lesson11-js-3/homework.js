@@ -82,13 +82,13 @@ function checkStock(stock) {
 // If username is equal to "admin", print "Welcome admin".
 // Else, print "Unknown user".
 function checkUsername(user) {
-  if (user === "admin") {
+  if (user === "Dinesh") {
     return `Welcome ${user}`;
   } else {
     return "Who r u";
   }
 }
-console.log(checkUsername("admin"));
+console.log(checkUsername("Dinesh"));
 
 // 8. Check shopping discount
 // Create a variable totalPrice = 120.
@@ -123,7 +123,7 @@ function plusOrMinus(num) {
   if (num >= 0) {
     return "Positive number";
   } else {
-    return "Nigative number";
+    return "Negative number";
   }
 }
 console.log(plusOrMinus(-2));
