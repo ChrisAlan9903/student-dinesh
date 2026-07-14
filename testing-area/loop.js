@@ -236,4 +236,31 @@ for (i = 1; i < 5; i++) {
   console.log(space + star);
 }
 
+console.log("     *    ");
+console.log("    ***   ");
+console.log("   *****  ");
+console.log("  ******* ");
+console.log(" *********");
+console.log("***********");
+
+// 1. 1st layer always from 1 star
+// 2. for every next layer, star increase by 2 from previous layer star count
+
+let numberOfLayer = 6;
+let emptySpace = " ";
+let currentStarNumber = "*";
+
+let nSpace = numberOfLayer - 1;
+
+for (let index = 1; index <= numberOfLayer; index++) {
+  for (let jindex = nSpace; jindex > 0; jindex--) {
+    emptySpace = emptySpace + " ";
+  }
+  nSpace -= 1;
+
+  console.log(emptySpace + currentStarNumber);
+  currentStarNumber = currentStarNumber + "**";
+  emptySpace = " ";
+}
+
 // END OF PRACTICE
