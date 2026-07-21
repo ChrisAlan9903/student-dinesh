@@ -25,3 +25,19 @@ let box = {
     state: "Selangor",
   },
 };
+
+// Lesson 12.2: Accessing data in object
+// 1. using dot notation ( . )
+// 2. using bracket notation ( [] )
+
+console.log(box.vehicleType);
+
+let typeOfVehicle = box.vehicleType;
+console.log(typeOfVehicle);
+
+console.log(5 * box.numberOfTyre);
+
+let field = "colourOption";
+
+let isCarAuto = box[field];
+console.log(isCarAuto);

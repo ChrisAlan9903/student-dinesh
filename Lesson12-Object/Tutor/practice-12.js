@@ -127,3 +127,108 @@ let game = {
   platform: "PC",
   releaseYear: 2011,
 };
+
+// Question 1
+// Given the object below:
+// Print the student's name and age using dot notation.
+
+let student = {
+  name: "Ali",
+  age: 15,
+  class: "Form 3",
+};
+
+// Question 2
+// Given the object below:
+// Print the car brand and model.
+
+let car = {
+  brand: "Toyota",
+  model: "Vios",
+  year: 2022,
+};
+
+// Question 3
+// Given the object below:
+// Print the book title and author.
+
+let book = {
+  title: "Harry Potter",
+  author: "J.K. Rowling",
+  price: 50,
+};
+
+// Question 4
+// Given the object below:
+// Print the phone color and storage.
+
+let phone = {
+  brand: "Samsung",
+  storage: "128GB",
+  color: "Black",
+};
+
+// Question 5
+// Given the object below:
+// Print the person's first name and last name.
+// Combine them into one sentence.
+
+let person = {
+  firstName: "John",
+  lastName: "Tan",
+  age: 25,
+};
+
+// Question 6
+// Given the object below:
+// Print the movie name and rating.
+
+let movie = {
+  name: "Avatar",
+  genre: "Action",
+  rating: 8.5,
+};
+
+// Question 7
+// Given the object below:
+// Use bracket notation [] to print the product name and price.
+
+let product = {
+  name: "Laptop",
+  category: "Electronics",
+  price: 3000,
+};
+
+// Question 8
+// Given the object below:
+// Create a variable called "animalName".
+// Store the animal name from the object into the variable.
+// Then print the variable.
+
+let animal = {
+  name: "Cat",
+  type: "Mammal",
+  isPet: true,
+};
+
+// Question 9
+// Given the object below:
+// Print the restaurant name and food type.
+
+let restaurant = {
+  name: "ABC Cafe",
+  foodType: "Western",
+  tables: 20,
+};
+
+// Question 10
+// Given the object below:
+// Print the game title and platform.
+// Then print a sentence:
+// "I play [game title] on [platform]"
+
+let game = {
+  title: "Minecraft",
+  platform: "PC",
+  releaseYear: 2011,
+};
