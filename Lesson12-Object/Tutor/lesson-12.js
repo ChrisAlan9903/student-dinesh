@@ -26,6 +26,11 @@ let box = {
   },
 };
 
+console.log(box.manufacturingAddress.state);
+
+box.manufacturingAddress.state = "KL";
+console.log(box.manufacturingAddress.state);
+
 // Lesson 12.2: Accessing data in object
 // 1. using dot notation ( . )
 // 2. using bracket notation ( [] )
@@ -41,3 +46,53 @@ let field = "colourOption";
 
 let isCarAuto = box[field];
 console.log(isCarAuto);
+
+// Lesson 12.3: Modify object
+console.log("before change: ", box.numberOfTyre);
+console.log("before change (whole): ", box);
+box.numberOfTyre = 8;
+
+console.log("after change: ", box.numberOfTyre);
+console.log("after change (whole): ", box);
+
+let item = {
+  name: "Toyota",
+  model: "Camry",
+  year: 2012,
+  option: null,
+};
+
+console.log(item);
+// delete item.option;
+
+item = {
+  name: "Toyota",
+  model: "Camry",
+  year: 2012,
+};
+
+console.log(item);
+
+// Extra note:
+let dog = {
+  name: "Puppu",
+  breed: "Golden Retriever",
+  age: 2,
+  makeSound: function () {
+    console.log("wonng wong");
+  },
+};
+
+dog.makeSound();
+
+let console = {
+  // properites
+
+  log: function (value) {},
+};
+
+let string = "Dinesh";
+
+string.length;
+
+console.log(string.toUpperCase());
