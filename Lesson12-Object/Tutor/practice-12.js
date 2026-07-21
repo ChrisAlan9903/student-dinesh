@@ -5,6 +5,11 @@
 // name: "Ali"
 // age: 15
 // class: "Form 3"
+let student = {
+  name: "Dinesh",
+  age: 10,
+  class: "Year 3",
+};
 
 // Question 2
 // Create an object called "car".
@@ -13,6 +18,11 @@
 // brand: "Toyota"
 // model: "Vios"
 // year: 2022
+let car = {
+  brand: "Jaecoo",
+  model: "C9",
+  year: 2025,
+};
 
 // Question 3
 // Create an object called "book".
@@ -21,6 +31,11 @@
 // title: "Harry Potter"
 // author: "J.K. Rowling"
 // price: 50
+let book = {
+  title: "Harry Potter",
+  author: "J.K Rowling",
+  price: 50,
+};
 
 // Question 4
 // Create an object called "phone".
@@ -29,6 +44,11 @@
 // brand: "Samsung"
 // storage: "128GB"
 // color: "Black"
+let phone = {
+  brand: "iPhone",
+  storage: "1TB",
+  color: "Black",
+};
 
 // Question 5
 // Create an object called "person".
@@ -37,6 +57,11 @@
 // firstName: "John"
 // lastName: "Tan"
 // age: 25
+let person = {
+  firstName: "Chris",
+  lastName: "Ahlim",
+  age: 5,
+};
 
 // Question 6
 // Create an object called "movie".
@@ -45,6 +70,11 @@
 // name: "Avatar"
 // genre: "Action"
 // rating: 8.5
+let movie = {
+  name: "John Wick",
+  genre: "Action",
+  rating: "goated",
+};
 
 // Question 7
 // Create an object called "product".
@@ -53,6 +83,11 @@
 // name: "Laptop"
 // category: "Electronics"
 // price: 3000
+let product = {
+  name: "Laptop",
+  category: "Electronics",
+  price: "3000",
+};
 
 // Question 8
 // Create an object called "animal".
@@ -61,6 +96,11 @@
 // name: "Cat"
 // type: "Mammal"
 // isPet: true
+let animals = {
+  name: "Cat",
+  type: "Mammal",
+  isPet: true,
+};
 
 // Question 9
 // Create an object called "restaurant".
@@ -69,6 +109,11 @@
 // name: "ABC Cafe"
 // foodType: "Western"
 // tables: 20
+let restaurant = {
+  name: "Hotpot Kitchen",
+  foodType: "Mala xiang guo",
+  tables: 25,
+};
 
 // Question 10
 // Create an object called "game".
@@ -77,3 +122,8 @@
 // title: "Minecraft"
 // platform: "PC"
 // releaseYear: 2011
+let game = {
+  title: "Minecraft",
+  platform: "PC",
+  releaseYear: 2011,
+};
