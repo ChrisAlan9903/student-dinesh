@@ -137,6 +137,8 @@ let student = {
   age: 15,
   class: "Form 3",
 };
+console.log(student.name);
+console.log(student.age);
 
 // Question 2
 // Given the object below:
@@ -147,6 +149,8 @@ let car = {
   model: "Vios",
   year: 2022,
 };
+console.log(car.brand);
+console.log(car.model);
 
 // Question 3
 // Given the object below:
@@ -157,6 +161,8 @@ let book = {
   author: "J.K. Rowling",
   price: 50,
 };
+console.log(book.title);
+console.log(book.author);
 
 // Question 4
 // Given the object below:
@@ -167,6 +173,8 @@ let phone = {
   storage: "128GB",
   color: "Black",
 };
+console.log(phone.color);
+console.log(phone.storage);
 
 // Question 5
 // Given the object below:
@@ -178,6 +186,8 @@ let person = {
   lastName: "Tan",
   age: 25,
 };
+console.log(person.firstName);
+console.log(person.lastName);
 
 // Question 6
 // Given the object below:
@@ -188,7 +198,8 @@ let movie = {
   genre: "Action",
   rating: 8.5,
 };
-
+console.log(movie.name);
+console.log(movie.rating);
 // Question 7
 // Given the object below:
 // Use bracket notation [] to print the product name and price.
@@ -198,6 +209,11 @@ let product = {
   category: "Electronics",
   price: 3000,
 };
+let field = "Laptop";
+
+let productName = product[field];
+
+console.log(productName);
 
 // Question 8
 // Given the object below:
@@ -211,6 +227,9 @@ let animal = {
   isPet: true,
 };
 
+let animalName = animal.name;
+console.log(animalName);
+
 // Question 9
 // Given the object below:
 // Print the restaurant name and food type.
@@ -220,6 +239,9 @@ let restaurant = {
   foodType: "Western",
   tables: 20,
 };
+
+console.log(restaurant.name);
+console.log(restaurant.foodType);
 
 // Question 10
 // Given the object below:
@@ -232,3 +254,5 @@ let game = {
   platform: "PC",
   releaseYear: 2011,
 };
+
+console.log(`I play ${game.title} on ${game.platform}`);
