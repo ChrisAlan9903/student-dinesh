@@ -17,6 +17,12 @@ name: "Ali"
 age: 15
 school: "ABC School"
 */
+let student = {
+  name: "Dinesh",
+  age: 20,
+  school: "Asia Pacific University",
+};
+console.log(student.name);
 
 // Question 2
 // Create an object called "book".
@@ -26,7 +32,13 @@ school: "ABC School"
 // - price
 //
 // Then print the book title and price.
-
+let book = {
+  title: "48 Laws of Power",
+  author: "Robert Greene",
+  price: 70,
+};
+console.log(book.title);
+console.log(book.price);
 // Question 3
 // Given the object below:
 // Print the car brand and color.
@@ -36,7 +48,8 @@ let car = {
   model: "Vios",
   color: "Red",
 };
-
+console.log(car.brand);
+console.log(car.color);
 // Question 4
 // Given the object below:
 // Change the person's age to 30.
@@ -45,6 +58,7 @@ let person = {
   name: "John",
   age: 25,
 };
+person.age = 30;
 
 // Question 5
 // Given the object below:
@@ -55,6 +69,7 @@ let phone = {
   storage: "128GB",
   color: "Black",
 };
+phone.storage = "256GB";
 
 // Question 6
 // Given the object below:
@@ -65,6 +80,7 @@ let laptop = {
   brand: "Lenovo",
   model: "ThinkPad",
 };
+laptop.price = 3000;
 
 // Question 7
 // Given the object below:
@@ -75,6 +91,7 @@ let restaurant = {
   name: "ABC Cafe",
   foodType: "Western",
 };
+restaurant.country = "Malaysia";
 
 // Question 8
 // Given the object below:
@@ -84,6 +101,7 @@ let student = {
   name: "Ali",
   subjects: ["Math", "Science", "English"],
 };
+console.log(student.subjects[0]);
 
 // Question 9
 // Given the object below:
@@ -94,6 +112,9 @@ let student = {
   subjects: ["Math", "Science", "English"],
 };
 
+student.subjects[0] = "History";
+console.log(student);
+
 // Question 10
 // Given the object below:
 // Print:
@@ -103,6 +124,7 @@ let phone = {
   brand: "Apple",
   model: "iPhone 15",
 };
+console.log(`I bought a ${phone.brand} phone`);
 
 // =========================
 // MEDIUM QUESTIONS (5)
@@ -119,6 +141,8 @@ let product = {
   price: 150,
   category: "Computer",
 };
+product.totalPrice = product.price;
+console.log(product.totalPrice);
 
 // Question 12
 // Given the object below:
@@ -128,6 +152,8 @@ let product = {
   name: "Mouse",
   price: 100,
 };
+product.price = product.price + 50;
+console.log(product);
 
 // Question 13
 // Given the object below:
@@ -139,6 +165,7 @@ let game = {
   platform: "PC",
   price: 60,
 };
+game.isAvailable = true;
 
 // Question 14
 // Given the object below:
@@ -150,6 +177,13 @@ let student = {
   age: 16,
   subjects: ["Math", "Physics", "Chemistry"],
 };
+
+console.log(student.name);
+
+let subjectsArray = student.subjects;
+for (subject of student.subjects) {
+  console.log(subject);
+}
 
 // Question 15
 // Given the object below:
@@ -164,6 +198,9 @@ let movie = {
   genre: "Action",
   rating: 8.5,
 };
+movie.rating = 9.5;
+movie.genre = "Adventure";
+movie.language = "English";
 
 // =========================
 // HARD QUESTIONS (5)
@@ -179,6 +216,13 @@ let movie = {
 // Then:
 // - Add 500 to the balance
 // - Print the final balance
+let bankAccount = {
+  accountName: "Bubuu",
+  accountNumber: "123456789",
+  balance: 100000,
+};
+bankAccount.balance = bankAccount.balance + 500;
+console.log("Final Balance: " + bankAccount.balance);
 
 // Question 17
 // Given the object below:
@@ -192,6 +236,8 @@ let order = {
   price: 100,
   quantity: 3,
 };
+order.totalCost = order.price * order.quantity;
+console.log(order.totalCost);
 
 // Question 18
 // Given the object below:
@@ -205,6 +251,7 @@ let student = {
   name: "Ali",
   score: 90,
 };
+console.log(`${student.name} has ${student.score} marks`);
 
 // Question 19
 // Given the object below:
@@ -215,7 +262,8 @@ let student = {
   name: "John",
   subjects: ["Math", "English"],
 };
-
+student.subjects.push("Sex Ed");
+console.log(student.subjects);
 // Question 20
 // Given the object below:
 // Calculate the final price after discount.
@@ -228,3 +276,6 @@ let product = {
   price: 3000,
   discount: 500,
 };
+product.finalPrice = product.price - product.discount;
+
+console.log(product.finalPrice);

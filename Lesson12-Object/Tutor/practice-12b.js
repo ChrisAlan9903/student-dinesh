@@ -8,6 +8,9 @@ let student = {
   class: "Form 3",
 };
 
+student.age = 16;
+student.class = "Form 4";
+
 // Question 2
 // Change the car's color to "Blue".
 // Change the car's year to 2024.
@@ -18,6 +21,8 @@ let car = {
   color: "Red",
   year: 2022,
 };
+car.color = "Blue";
+car.year = 2024;
 
 // Question 3
 // Change the book price to 60.
@@ -28,6 +33,8 @@ let book = {
   author: "Unknown",
   price: 50,
 };
+book.price = 60;
+book.author = "George Martin";
 
 // Question 4
 // Change the phone storage to "256GB".
@@ -38,6 +45,8 @@ let phone = {
   storage: "128GB",
   color: "Black",
 };
+phone.storage = "256GB";
+phone.color = "White";
 
 // Question 5
 // Change the person's age to 30.
@@ -48,6 +57,8 @@ let person = {
   lastName: "Tan",
   age: 25,
 };
+person.age = 30;
+person.lastName = "Lim";
 
 // Question 6
 // Change the movie rating to 9.0.
@@ -58,6 +69,8 @@ let movie = {
   genre: "Action",
   rating: 8.5,
 };
+movie.rating = 9.0;
+movie.genre = "Adventure";
 
 // Question 7
 // Add a new property called "stock".
@@ -68,6 +81,9 @@ let product = {
   category: "Electronics",
   price: 3000,
 };
+product.stock = 100;
+
+console.log(product);
 
 // Question 8
 // Add a new property called "color".
@@ -78,6 +94,7 @@ let animal = {
   type: "Mammal",
   isPet: true,
 };
+animal.color = "Brown";
 
 // Question 9
 // Change the restaurant table count to 30.
@@ -88,6 +105,8 @@ let restaurant = {
   foodType: "Western",
   tables: 20,
 };
+restaurant.tables = 30;
+restaurant.rating = 4.5;
 
 // Question 10
 // Change the game platform to "Nintendo Switch".
@@ -99,3 +118,6 @@ let game = {
   platform: "PC",
   releaseYear: 2011,
 };
+game.platform = "Nintendo Switch";
+game.releaseYear = 2025;
+game.price = 59.9;
