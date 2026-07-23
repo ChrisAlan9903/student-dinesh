@@ -56,3 +56,44 @@ let fruits = ["Apple", "Banana", "Orange"];
 
 fruits[1] = "Watermelon";
 console.log(fruits);
+
+// Lesson 13d: How to add/remove element in array
+
+// ADD
+let fruits = ["Apple", "Banana", "Orange"];
+
+fruits.push("Watermelon");
+console.log(fruits);
+
+// REMOVE
+fruits.pop();
+
+console.log(fruits);
+console.log(removed);
+console.log(fruits.pop());
+
+// Extra note: use .shift() and unshift() to add or remove from the beginning of array
+
+// Practice with loop
+// Given an array of names, print out each item in the array using for loop
+let students = ["Dinesh", "Chris", "Emily"];
+
+// for (let index = 0; index < students.length; index++) {
+//   console.log(students[index]);
+// }
+
+// using for of loop
+
+for (let element of students) {
+  console.log(element);
+}
+
+// using map()
+
+students.map((element) => {
+  console.log(element);
+});
+
+students.map(function (element) {
+  console.log(element);
+});
