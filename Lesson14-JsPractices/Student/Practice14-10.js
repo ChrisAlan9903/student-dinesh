@@ -1,5 +1,5 @@
 // ============================================================
-// QUESTION 10: Search for a Product
+// QUESTION 10: Search for a Product 🔍
 // Difficulty: Medium
 // ============================================================
 
@@ -22,7 +22,7 @@ function isProductAvailable(products, searchProduct) {
   for (product of products) {
     if (product == searchProduct) {
       return true;
-    } else return false;
+    } else return false; //Note: should loop all first before decide it is false
   }
 }
 

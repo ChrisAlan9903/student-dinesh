@@ -1,5 +1,5 @@
 // ============================================================
-// QUESTION 9: Find the Highest Temperature
+// QUESTION 9: Find the Highest Temperature 🔍
 // Difficulty: Medium
 // ============================================================
 

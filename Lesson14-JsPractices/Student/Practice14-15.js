@@ -1,5 +1,5 @@
 // ============================================================
-// QUESTION 15: Analyse a Student's Subjects
+// QUESTION 15: Analyse a Student's Subjects 🔍
 // Difficulty: Hard
 // ============================================================
 

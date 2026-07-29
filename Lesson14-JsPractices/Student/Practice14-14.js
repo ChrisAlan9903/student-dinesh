@@ -1,5 +1,5 @@
 // ============================================================
-// QUESTION 14: Generate a Simple Receipt
+// QUESTION 14: Generate a Simple Receipt 🔍
 // Difficulty: Hard
 // ============================================================
 
@@ -31,7 +31,7 @@ function generateReceipt(shopName, itemPrices, isMember) {
     } else if (discounted >= 100) {
       return `${shopName} - Final total: $ ${discounted}`;
     } else if (discounted <= 100) discounted = discounted + 5;
-    return `${shopName} - Final total: $ ${discounted}`;
+    return `${shopName} - Final total: $ ${discounted}`; // Note: Just follow the Steps in the questions
   }
 }
 

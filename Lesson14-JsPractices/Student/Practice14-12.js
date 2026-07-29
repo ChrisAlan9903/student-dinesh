@@ -1,5 +1,5 @@
 // ============================================================
-// QUESTION 12: Apply a Discount to a Product
+// QUESTION 12: Apply a Discount to a Product 🔍
 // Difficulty: Medium
 // ============================================================
 
@@ -28,7 +28,7 @@ function calculateProductPrice(product) {
   let add = 0;
   if (product.hasDiscount === true) {
     add = product.price / 20;
-    finalPrice = product.price - add;
+    finalPrice = product.price - add; // Note: Need to just fix the math
     return `${product.name} costs $ ${finalPrice}`;
   } else return `${product.name} costs $ ${finalPrice}`;
 }
