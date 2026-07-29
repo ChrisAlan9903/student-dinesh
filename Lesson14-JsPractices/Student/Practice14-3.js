@@ -17,6 +17,11 @@
 
 function getShopStatus(currentHour, isHoliday) {
   // Write your solution here
+  if (isHoliday === true) {
+    return "The shop is closed.";
+  } else if (currentHour >= 9 && currentHour < 18) {
+    return "The shop is open.";
+  } else return "The shop is closed.";
 }
 
 // Test cases:

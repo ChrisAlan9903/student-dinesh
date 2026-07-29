@@ -13,6 +13,11 @@
 
 function calculateCartTotal(prices) {
   // Write your solution here
+  let sum = 0;
+  for (price of prices) {
+    sum += price;
+  }
+  return sum;
 }
 
 // Test cases:

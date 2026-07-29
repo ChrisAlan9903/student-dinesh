@@ -24,6 +24,13 @@
 
 function calculateProductPrice(product) {
   // Write your solution here
+  let finalPrice = 0;
+  let add = 0;
+  if (product.hasDiscount === true) {
+    add = product.price / 20;
+    finalPrice = product.price - add;
+    return `${product.name} costs $ ${finalPrice}`;
+  } else return `${product.name} costs $ ${finalPrice}`;
 }
 
 // Test cases:

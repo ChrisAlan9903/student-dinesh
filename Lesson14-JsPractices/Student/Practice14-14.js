@@ -23,6 +23,16 @@
 
 function generateReceipt(shopName, itemPrices, isMember) {
   // Write your solution here
+  let sum = 0;
+  for (i = 0; i < itemPrices.length; i++) {
+    if (isMember == true) {
+      sum = itemPrices[i];
+      let discounted = sum - (sum * 10) / 100;
+    } else if (discounted >= 100) {
+      return `${shopName} - Final total: $ ${discounted}`;
+    } else if (discounted <= 100) discounted = discounted + 5;
+    return `${shopName} - Final total: $ ${discounted}`;
+  }
 }
 
 // Test cases:

@@ -23,6 +23,9 @@
 
 function getCustomerSummary(customer) {
   // Write your solution here
+  if (customer.isMember === true) {
+    return `${customer.name}, age ${customer.age}, is a member.`;
+  } else return `${customer.name}, age ${customer.age}, is not a member.`;
 }
 
 // Test cases:

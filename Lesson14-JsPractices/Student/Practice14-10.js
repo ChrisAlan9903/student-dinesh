@@ -19,6 +19,11 @@
 
 function isProductAvailable(products, searchProduct) {
   // Write your solution here
+  for (product of products) {
+    if (product == searchProduct) {
+      return true;
+    } else return false;
+  }
 }
 
 // Test cases:

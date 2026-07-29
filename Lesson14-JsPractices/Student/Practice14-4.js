@@ -21,6 +21,11 @@
 
 function checkProductStock(productName, stock) {
   // Write your solution here
+  if (stock === 0) {
+    return `${productName} is out of stock`;
+  } else if (stock >= 1 && stock <= 5) {
+    return `${productName} has a low stock`;
+  } else return `${productName} is available`;
 }
 
 // Test cases:

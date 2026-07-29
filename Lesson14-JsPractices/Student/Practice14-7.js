@@ -22,6 +22,11 @@
 
 function calculateWeeklyPay(hoursWorked, hourlyRate) {
   // Write your solution here
+  if (hoursWorked <= 40) {
+    return hoursWorked * 10;
+  } else if (hoursWorked >= 40) {
+    return hoursWorked * 20;
+  }
 }
 
 // Test cases:

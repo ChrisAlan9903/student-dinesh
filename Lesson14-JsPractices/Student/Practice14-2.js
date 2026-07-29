@@ -18,6 +18,9 @@
 
 function getStudentResult(studentName, score) {
   // Write your solution here
+  if (score >= 50) {
+    return `${studentName} has passed`;
+  } else return `${studentName} has failed`;
 }
 
 // Test cases:

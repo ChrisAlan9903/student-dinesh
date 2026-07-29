@@ -14,6 +14,13 @@
 
 function countExpensiveItems(expenses, limit) {
   // Write your solution here
+  let count = 0;
+  for (expense of expenses) {
+    if (expense > limit) {
+      count++;
+    }
+  }
+  return count;
 }
 
 // Test cases:

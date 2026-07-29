@@ -29,6 +29,23 @@
 
 function analyseStudent(student) {
   // Write your solution here
+  let sum = 0;
+  let passes = 0;
+  let result;
+
+  for (score of student.scores) {
+    sum += score;
+    if (score >= 50) {
+      passes++;
+      result = "Pass";
+    } else if (score <= 50) {
+      result = "Fail";
+    }
+  }
+
+  let average = sum / student.scores.length;
+  return `${student.name} has an average of ${average}, passed ${passes}
+  subjects, and received an overall result of ${result} `;
 }
 
 // Test cases:

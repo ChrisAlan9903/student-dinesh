@@ -15,9 +15,15 @@
 //
 // Use a for...of loop to count and return the number
 // of available seats.
-
 function countAvailableSeats(seats) {
   // Write your solution here
+  let count = 0;
+  for (seat of seats) {
+    if (seat === true) {
+      count++;
+    }
+  }
+  return count;
 }
 
 // Test cases:

@@ -15,6 +15,13 @@
 
 function countPassingScores(scores) {
   // Write your solution here
+  let count = 0;
+  for (score of scores) {
+    if (score >= 50) {
+      count++;
+    }
+  }
+  return count;
 }
 
 // Test cases:
