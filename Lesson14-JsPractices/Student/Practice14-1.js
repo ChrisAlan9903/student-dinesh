@@ -18,6 +18,18 @@
 
 function calculateDeliveryFee(orderAmount, isMember) {
   // Write your solution here
+
+  let deliveryFee = 0;
+
+  if (isMember == true) {
+    deliveryFee = 0;
+  } else if (orderAmount >= 50) {
+    deliveryFee = 0;
+  } else {
+    deliveryFee = 5;
+  }
+
+  return deliveryFee;
 }
 
 // Test cases:
