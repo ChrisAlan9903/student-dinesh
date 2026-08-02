@@ -3,30 +3,39 @@
 // Question 1
 // Create an array of 5 animal names.
 // Print the array.
+let animals = ["Dog", "Cat", "Bird", "Chicken", "Tiger"];
 
 // Question 2
 // Create an array of 5 numbers.
 // Print the first and last number.
+let numbers = [10, 20, 30, 40, 50];
 
 // Question 3
 // Print every item inside this array.
 
 let fruits = ["Apple", "Banana", "Orange"];
+for (i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
 
 // Question 4
 // Change "Dog" into "Cat".
 
 let animals = ["Dog", "Bird", "Fish"];
+animals[0] = "Cat";
+console.log(animals);
 
 // Question 5
 // Add a new color into the array.
 
 let colors = ["Red", "Blue"];
+colors.push("Black");
 
 // Question 6
 // Remove the last item from the array.
 
 let foods = ["Rice", "Chicken", "Soup"];
+foods.pop();
 
 // MEDIUM LEVEL
 
@@ -34,11 +43,19 @@ let foods = ["Rice", "Chicken", "Soup"];
 // Use a loop to print all students.
 
 let students = ["Ali", "John", "Sarah"];
+for (i = 0; i < students.length; i++) {
+  console.log(students[i]);
+}
 
 // Question 8
 // Use a loop to calculate total marks.
 
 let marks = [80, 70, 90];
+let sum = 0;
+for (i = 0; i < marks.length; i++) {
+  sum += marks[i];
+}
+console.log(sum);
 
 // Question 9
 // Count how many numbers are greater than 50.
