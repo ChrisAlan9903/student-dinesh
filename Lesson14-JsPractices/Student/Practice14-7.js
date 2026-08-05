@@ -22,10 +22,17 @@
 
 function calculateWeeklyPay(hoursWorked, hourlyRate) {
   // Write your solution here
+  let defaultHoursWorked;
+  let overtimeHoursWorked;
+
   if (hoursWorked <= 40) {
-    return hoursWorked * 10;
+    defaultHoursWorked = hoursWorked * hourlyRate;
+    return defaultHoursWorked;
   } else if (hoursWorked >= 40) {
-    return hoursWorked * 20;
+    defaultHoursWorked = 40 * hourlyRate;
+    overtimeHoursWorked =
+      (hoursWorked - 40) * (hourlyRate * 2) + defaultHoursWorked;
+    return overtimeHoursWorked;
   }
 }
 

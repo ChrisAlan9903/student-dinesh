@@ -27,10 +27,10 @@ function calculateProductPrice(product) {
   let finalPrice = 0;
   let add = 0;
   if (product.hasDiscount === true) {
-    add = product.price / 20;
+    add = product.price * (20 / 100);
     finalPrice = product.price - add; // Note: Need to just fix the math
     return `${product.name} costs $ ${finalPrice}`;
-  } else return `${product.name} costs $ ${finalPrice}`;
+  } else return `${product.name} costs $ ${product.price}`;
 }
 
 // Test cases:

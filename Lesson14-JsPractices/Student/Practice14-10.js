@@ -19,11 +19,18 @@
 
 function isProductAvailable(products, searchProduct) {
   // Write your solution here
+  let trueOrFalse;
   for (product of products) {
     if (product == searchProduct) {
-      return true;
-    } else return false; //Note: should loop all first before decide it is false
+      return (trueOrFalse = true);
+    } else if (product == null) {
+      //no idea how to bypass "undefined"
+      trueOrFalse = false;
+    } else {
+      trueOrFalse = false;
+    } //Note: should loop all first before decide it is false
   }
+  return trueOrFalse;
 }
 
 // Test cases:

@@ -13,8 +13,8 @@
 // You may assume the array always contains at least one number.
 //
 // Do not use Math.max().
-let biggest = temperatures[i];
 function findHighestTemperature(temperatures) {
+  let biggest = temperatures[0];
   // Write your solution here
   for (let i = 0; i <= temperatures.length; i++) {
     if (temperatures[i] > biggest) {

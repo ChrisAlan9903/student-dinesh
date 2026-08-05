@@ -147,6 +147,7 @@ console.log(smallest);
 let shoppingItems = ["Coke", "CocaCola", "Cola"];
 shoppingItems.pop();
 console.log(shoppingItems);
+
 // Question 18
 // Ask the user for 5 numbers.
 // Store them inside an array.
@@ -156,8 +157,15 @@ console.log(shoppingItems);
 // Find how many times "Apple" appears.
 
 let fruits = ["Apple", "Banana", "Apple", "Orange", "Apple"];
+let count = 0;
+for (fruit of fruits) {
+  if (fruit === "Apple") {
+    count++;
+  }
+}
+console.log(count);
 
-// Question 20
+// Question 20 🔍
 // Create a student score system.
 // Store 5 scores.
 // Print:
@@ -165,3 +173,19 @@ let fruits = ["Apple", "Banana", "Apple", "Orange", "Apple"];
 // - total score
 // - average score
 // - number of students who passed
+
+let scores = [40, 60, 60, 75, 30];
+let total = 0;
+let count = 0;
+for (i = 0; i < scores.length; i++) {
+  total = total + scores[i];
+  if (scores[i] >= 50) {
+    count++;
+  }
+}
+let average = total / scores.length;
+
+console.log(scores);
+console.log(total);
+console.log(average);
+console.log(count);
